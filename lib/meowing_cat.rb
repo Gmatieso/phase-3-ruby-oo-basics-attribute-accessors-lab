@@ -5,5 +5,10 @@ class Cat
     #defining macro method cat name 
     attr_accessor :name
 
+    #method meow
+    def meow
+        puts "meow!"
+    end
+
     
 end
