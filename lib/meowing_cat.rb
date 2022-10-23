@@ -12,3 +12,11 @@ class Cat
 
     
 end
+
+#instance of our class 
+pretty = Cat.new
+#Calling our cats name
+pretty.name = "Pretty"
+puts pretty.name
+#Calling our method meow
+pretty.meow
